@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A212B0E5BD84595630194482 /* libPods-LYDrawScanCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C32D9D68E18E70F1C874B /* libPods-LYDrawScanCode.a */; };
+		CDE5691A1F2B3EE700DBE28F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE569191F2B3EE700DBE28F /* main.m */; };
+		CDE5691D1F2B3EE700DBE28F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5691C1F2B3EE700DBE28F /* AppDelegate.m */; };
+		CDE569201F2B3EE700DBE28F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5691F1F2B3EE700DBE28F /* ViewController.m */; };
+		CDE569231F2B3EE700DBE28F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE569211F2B3EE700DBE28F /* Main.storyboard */; };
+		CDE569251F2B3EE700DBE28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE569241F2B3EE700DBE28F /* Assets.xcassets */; };
+		CDE569281F2B3EE700DBE28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE569261F2B3EE700DBE28F /* LaunchScreen.storyboard */; };
+		CDE569331F2B3EE800DBE28F /* LYDrawScanCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE569321F2B3EE800DBE28F /* LYDrawScanCodeTests.m */; };
+		CDE5693E1F2B3EE800DBE28F /* LYDrawScanCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5693D1F2B3EE800DBE28F /* LYDrawScanCodeUITests.m */; };
+		CDE569611F2B408900DBE28F /* ScanBarCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE5694E1F2B408900DBE28F /* ScanBarCodeController.m */; };
+		CDE569641F2B408900DBE28F /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE569531F2B408900DBE28F /* ScanViewController.m */; };
+		CDE569651F2B408900DBE28F /* DrawIntoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE569561F2B408900DBE28F /* DrawIntoView.m */; };
+		CDE569661F2B408900DBE28F /* DrawOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE569581F2B408900DBE28F /* DrawOutView.m */; };
+		CDE569771F2B40EF00DBE28F /* lightNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE5696D1F2B40EF00DBE28F /* lightNormal.png */; };
+		CDE569781F2B40EF00DBE28F /* lightSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE5696E1F2B40EF00DBE28F /* lightSelect.png */; };
+		CDE569791F2B40EF00DBE28F /* noticeMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDE5696F1F2B40EF00DBE28F /* noticeMusic.wav */; };
+		CDE5697B1F2B40EF00DBE28F /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE569731F2B40EF00DBE28F /* QRCodeReaderView.m */; };
+		CDE5697C1F2B40EF00DBE28F /* scanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE569741F2B40EF00DBE28F /* scanLine@2x.png */; };
+		CDE5697D1F2B40EF00DBE28F /* scanLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE569751F2B40EF00DBE28F /* scanLine@3x.png */; };
+		CDE5697E1F2B40EF00DBE28F /* scanscanBg.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE569761F2B40EF00DBE28F /* scanscanBg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDE5692F1F2B3EE800DBE28F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE5690D1F2B3EE700DBE28F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE569141F2B3EE700DBE28F;
+			remoteInfo = LYDrawScanCode;
+		};
+		CDE5693A1F2B3EE800DBE28F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE5690D1F2B3EE700DBE28F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE569141F2B3EE700DBE28F;
+			remoteInfo = LYDrawScanCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		298FC45EF111286B0C6F51B9 /* Pods-LYDrawScanCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDrawScanCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYDrawScanCode/Pods-LYDrawScanCode.release.xcconfig"; sourceTree = "<group>"; };
+		4118A6982E45C8B1BA42DA65 /* Pods-LYDrawScanCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDrawScanCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYDrawScanCode/Pods-LYDrawScanCode.debug.xcconfig"; sourceTree = "<group>"; };
+		9F4C32D9D68E18E70F1C874B /* libPods-LYDrawScanCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYDrawScanCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE569151F2B3EE700DBE28F /* LYDrawScanCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYDrawScanCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE569191F2B3EE700DBE28F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDE5691B1F2B3EE700DBE28F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDE5691C1F2B3EE700DBE28F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDE5691E1F2B3EE700DBE28F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDE5691F1F2B3EE700DBE28F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDE569221F2B3EE700DBE28F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE569241F2B3EE700DBE28F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE569271F2B3EE700DBE28F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE569291F2B3EE700DBE28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE5692E1F2B3EE800DBE28F /* LYDrawScanCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYDrawScanCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE569321F2B3EE800DBE28F /* LYDrawScanCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDrawScanCodeTests.m; sourceTree = "<group>"; };
+		CDE569341F2B3EE800DBE28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE569391F2B3EE800DBE28F /* LYDrawScanCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYDrawScanCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE5693D1F2B3EE800DBE28F /* LYDrawScanCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDrawScanCodeUITests.m; sourceTree = "<group>"; };
+		CDE5693F1F2B3EE800DBE28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE5694B1F2B3F3D00DBE28F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CDE5694D1F2B408900DBE28F /* ScanBarCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanBarCodeController.h; sourceTree = "<group>"; };
+		CDE5694E1F2B408900DBE28F /* ScanBarCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanBarCodeController.m; sourceTree = "<group>"; };
+		CDE569521F2B408900DBE28F /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		CDE569531F2B408900DBE28F /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		CDE569551F2B408900DBE28F /* DrawIntoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawIntoView.h; sourceTree = "<group>"; };
+		CDE569561F2B408900DBE28F /* DrawIntoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawIntoView.m; sourceTree = "<group>"; };
+		CDE569571F2B408900DBE28F /* DrawOutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawOutView.h; sourceTree = "<group>"; };
+		CDE569581F2B408900DBE28F /* DrawOutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawOutView.m; sourceTree = "<group>"; };
+		CDE5696D1F2B40EF00DBE28F /* lightNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightNormal.png; sourceTree = "<group>"; };
+		CDE5696E1F2B40EF00DBE28F /* lightSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightSelect.png; sourceTree = "<group>"; };
+		CDE5696F1F2B40EF00DBE28F /* noticeMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noticeMusic.wav; sourceTree = "<group>"; };
+		CDE569721F2B40EF00DBE28F /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		CDE569731F2B40EF00DBE28F /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		CDE569741F2B40EF00DBE28F /* scanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@2x.png"; sourceTree = "<group>"; };
+		CDE569751F2B40EF00DBE28F /* scanLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scanLine@3x.png"; sourceTree = "<group>"; };
+		CDE569761F2B40EF00DBE28F /* scanscanBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanscanBg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE569121F2B3EE700DBE28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A212B0E5BD84595630194482 /* libPods-LYDrawScanCode.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE5692B1F2B3EE800DBE28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE569361F2B3EE800DBE28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C33B515204D5B54B797E12B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4118A6982E45C8B1BA42DA65 /* Pods-LYDrawScanCode.debug.xcconfig */,
+				298FC45EF111286B0C6F51B9 /* Pods-LYDrawScanCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		825B1A138E80099CA9AE5DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F4C32D9D68E18E70F1C874B /* libPods-LYDrawScanCode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDE5690C1F2B3EE700DBE28F = {
+			isa = PBXGroup;
+			children = (
+				CDE569171F2B3EE700DBE28F /* LYDrawScanCode */,
+				CDE569311F2B3EE800DBE28F /* LYDrawScanCodeTests */,
+				CDE5693C1F2B3EE800DBE28F /* LYDrawScanCodeUITests */,
+				CDE569161F2B3EE700DBE28F /* Products */,
+				2C33B515204D5B54B797E12B /* Pods */,
+				825B1A138E80099CA9AE5DFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE569161F2B3EE700DBE28F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE569151F2B3EE700DBE28F /* LYDrawScanCode.app */,
+				CDE5692E1F2B3EE800DBE28F /* LYDrawScanCodeTests.xctest */,
+				CDE569391F2B3EE800DBE28F /* LYDrawScanCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE569171F2B3EE700DBE28F /* LYDrawScanCode */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5696C1F2B40EF00DBE28F /* 二维码扫描 */,
+				CDE5694C1F2B408900DBE28F /* Controller */,
+				CDE569541F2B408900DBE28F /* View */,
+				CDE5694B1F2B3F3D00DBE28F /* PrefixHeader.pch */,
+				CDE5691B1F2B3EE700DBE28F /* AppDelegate.h */,
+				CDE5691C1F2B3EE700DBE28F /* AppDelegate.m */,
+				CDE5691E1F2B3EE700DBE28F /* ViewController.h */,
+				CDE5691F1F2B3EE700DBE28F /* ViewController.m */,
+				CDE569211F2B3EE700DBE28F /* Main.storyboard */,
+				CDE569241F2B3EE700DBE28F /* Assets.xcassets */,
+				CDE569261F2B3EE700DBE28F /* LaunchScreen.storyboard */,
+				CDE569291F2B3EE700DBE28F /* Info.plist */,
+				CDE569181F2B3EE700DBE28F /* Supporting Files */,
+			);
+			path = LYDrawScanCode;
+			sourceTree = "<group>";
+		};
+		CDE569181F2B3EE700DBE28F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE569191F2B3EE700DBE28F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDE569311F2B3EE800DBE28F /* LYDrawScanCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE569321F2B3EE800DBE28F /* LYDrawScanCodeTests.m */,
+				CDE569341F2B3EE800DBE28F /* Info.plist */,
+			);
+			path = LYDrawScanCodeTests;
+			sourceTree = "<group>";
+		};
+		CDE5693C1F2B3EE800DBE28F /* LYDrawScanCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5693D1F2B3EE800DBE28F /* LYDrawScanCodeUITests.m */,
+				CDE5693F1F2B3EE800DBE28F /* Info.plist */,
+			);
+			path = LYDrawScanCodeUITests;
+			sourceTree = "<group>";
+		};
+		CDE5694C1F2B408900DBE28F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5694D1F2B408900DBE28F /* ScanBarCodeController.h */,
+				CDE5694E1F2B408900DBE28F /* ScanBarCodeController.m */,
+				CDE569521F2B408900DBE28F /* ScanViewController.h */,
+				CDE569531F2B408900DBE28F /* ScanViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDE569541F2B408900DBE28F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDE569551F2B408900DBE28F /* DrawIntoView.h */,
+				CDE569561F2B408900DBE28F /* DrawIntoView.m */,
+				CDE569571F2B408900DBE28F /* DrawOutView.h */,
+				CDE569581F2B408900DBE28F /* DrawOutView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDE5696C1F2B40EF00DBE28F /* 二维码扫描 */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5696D1F2B40EF00DBE28F /* lightNormal.png */,
+				CDE5696E1F2B40EF00DBE28F /* lightSelect.png */,
+				CDE5696F1F2B40EF00DBE28F /* noticeMusic.wav */,
+				CDE569721F2B40EF00DBE28F /* QRCodeReaderView.h */,
+				CDE569731F2B40EF00DBE28F /* QRCodeReaderView.m */,
+				CDE569741F2B40EF00DBE28F /* scanLine@2x.png */,
+				CDE569751F2B40EF00DBE28F /* scanLine@3x.png */,
+				CDE569761F2B40EF00DBE28F /* scanscanBg.png */,
+			);
+			path = "二维码扫描";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE569141F2B3EE700DBE28F /* LYDrawScanCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE569421F2B3EE800DBE28F /* Build configuration list for PBXNativeTarget "LYDrawScanCode" */;
+			buildPhases = (
+				F3C3D93CF49FC39577842B42 /* [CP] Check Pods Manifest.lock */,
+				CDE569111F2B3EE700DBE28F /* Sources */,
+				CDE569121F2B3EE700DBE28F /* Frameworks */,
+				CDE569131F2B3EE700DBE28F /* Resources */,
+				C588B899E1E98DA5477C309C /* [CP] Embed Pods Frameworks */,
+				C3578B9B5DFD6EB6EEAD6128 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYDrawScanCode;
+			productName = LYDrawScanCode;
+			productReference = CDE569151F2B3EE700DBE28F /* LYDrawScanCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDE5692D1F2B3EE800DBE28F /* LYDrawScanCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE569451F2B3EE800DBE28F /* Build configuration list for PBXNativeTarget "LYDrawScanCodeTests" */;
+			buildPhases = (
+				CDE5692A1F2B3EE800DBE28F /* Sources */,
+				CDE5692B1F2B3EE800DBE28F /* Frameworks */,
+				CDE5692C1F2B3EE800DBE28F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE569301F2B3EE800DBE28F /* PBXTargetDependency */,
+			);
+			name = LYDrawScanCodeTests;
+			productName = LYDrawScanCodeTests;
+			productReference = CDE5692E1F2B3EE800DBE28F /* LYDrawScanCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDE569381F2B3EE800DBE28F /* LYDrawScanCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE569481F2B3EE800DBE28F /* Build configuration list for PBXNativeTarget "LYDrawScanCodeUITests" */;
+			buildPhases = (
+				CDE569351F2B3EE800DBE28F /* Sources */,
+				CDE569361F2B3EE800DBE28F /* Frameworks */,
+				CDE569371F2B3EE800DBE28F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE5693B1F2B3EE800DBE28F /* PBXTargetDependency */,
+			);
+			name = LYDrawScanCodeUITests;
+			productName = LYDrawScanCodeUITests;
+			productReference = CDE569391F2B3EE800DBE28F /* LYDrawScanCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE5690D1F2B3EE700DBE28F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liuyang;
+				TargetAttributes = {
+					CDE569141F2B3EE700DBE28F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3VMZN2938E;
+						ProvisioningStyle = Automatic;
+					};
+					CDE5692D1F2B3EE800DBE28F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3VMZN2938E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDE569141F2B3EE700DBE28F;
+					};
+					CDE569381F2B3EE800DBE28F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3VMZN2938E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDE569141F2B3EE700DBE28F;
+					};
+				};
+			};
+			buildConfigurationList = CDE569101F2B3EE700DBE28F /* Build configuration list for PBXProject "LYDrawScanCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE5690C1F2B3EE700DBE28F;
+			productRefGroup = CDE569161F2B3EE700DBE28F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE569141F2B3EE700DBE28F /* LYDrawScanCode */,
+				CDE5692D1F2B3EE800DBE28F /* LYDrawScanCodeTests */,
+				CDE569381F2B3EE800DBE28F /* LYDrawScanCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE569131F2B3EE700DBE28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE569281F2B3EE700DBE28F /* LaunchScreen.storyboard in Resources */,
+				CDE569771F2B40EF00DBE28F /* lightNormal.png in Resources */,
+				CDE569251F2B3EE700DBE28F /* Assets.xcassets in Resources */,
+				CDE569231F2B3EE700DBE28F /* Main.storyboard in Resources */,
+				CDE569781F2B40EF00DBE28F /* lightSelect.png in Resources */,
+				CDE5697D1F2B40EF00DBE28F /* scanLine@3x.png in Resources */,
+				CDE569791F2B40EF00DBE28F /* noticeMusic.wav in Resources */,
+				CDE5697C1F2B40EF00DBE28F /* scanLine@2x.png in Resources */,
+				CDE5697E1F2B40EF00DBE28F /* scanscanBg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE5692C1F2B3EE800DBE28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE569371F2B3EE800DBE28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3578B9B5DFD6EB6EEAD6128 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDrawScanCode/Pods-LYDrawScanCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C588B899E1E98DA5477C309C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDrawScanCode/Pods-LYDrawScanCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C3D93CF49FC39577842B42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE569111F2B3EE700DBE28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE569201F2B3EE700DBE28F /* ViewController.m in Sources */,
+				CDE569661F2B408900DBE28F /* DrawOutView.m in Sources */,
+				CDE569641F2B408900DBE28F /* ScanViewController.m in Sources */,
+				CDE569651F2B408900DBE28F /* DrawIntoView.m in Sources */,
+				CDE5691D1F2B3EE700DBE28F /* AppDelegate.m in Sources */,
+				CDE5697B1F2B40EF00DBE28F /* QRCodeReaderView.m in Sources */,
+				CDE5691A1F2B3EE700DBE28F /* main.m in Sources */,
+				CDE569611F2B408900DBE28F /* ScanBarCodeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE5692A1F2B3EE800DBE28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE569331F2B3EE800DBE28F /* LYDrawScanCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE569351F2B3EE800DBE28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE5693E1F2B3EE800DBE28F /* LYDrawScanCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE569301F2B3EE800DBE28F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE569141F2B3EE700DBE28F /* LYDrawScanCode */;
+			targetProxy = CDE5692F1F2B3EE800DBE28F /* PBXContainerItemProxy */;
+		};
+		CDE5693B1F2B3EE800DBE28F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE569141F2B3EE700DBE28F /* LYDrawScanCode */;
+			targetProxy = CDE5693A1F2B3EE800DBE28F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDE569211F2B3EE700DBE28F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE569221F2B3EE700DBE28F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE569261F2B3EE700DBE28F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE569271F2B3EE700DBE28F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE569401F2B3EE800DBE28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE569411F2B3EE800DBE28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE569431F2B3EE800DBE28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4118A6982E45C8B1BA42DA65 /* Pods-LYDrawScanCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LYDrawScanCode/PrefixHeader.pch";
+				INFOPLIST_FILE = LYDrawScanCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YoungLiu.LYDrawScanCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDE569441F2B3EE800DBE28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298FC45EF111286B0C6F51B9 /* Pods-LYDrawScanCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LYDrawScanCode/PrefixHeader.pch";
+				INFOPLIST_FILE = LYDrawScanCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YoungLiu.LYDrawScanCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDE569461F2B3EE800DBE28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = LYDrawScanCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YoungLiu.LYDrawScanCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYDrawScanCode.app/LYDrawScanCode";
+			};
+			name = Debug;
+		};
+		CDE569471F2B3EE800DBE28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = LYDrawScanCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YoungLiu.LYDrawScanCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYDrawScanCode.app/LYDrawScanCode";
+			};
+			name = Release;
+		};
+		CDE569491F2B3EE800DBE28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = LYDrawScanCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YoungLiu.LYDrawScanCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYDrawScanCode;
+			};
+			name = Debug;
+		};
+		CDE5694A1F2B3EE800DBE28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3VMZN2938E;
+				INFOPLIST_FILE = LYDrawScanCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YoungLiu.LYDrawScanCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYDrawScanCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE569101F2B3EE700DBE28F /* Build configuration list for PBXProject "LYDrawScanCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE569401F2B3EE800DBE28F /* Debug */,
+				CDE569411F2B3EE800DBE28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE569421F2B3EE800DBE28F /* Build configuration list for PBXNativeTarget "LYDrawScanCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE569431F2B3EE800DBE28F /* Debug */,
+				CDE569441F2B3EE800DBE28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDE569451F2B3EE800DBE28F /* Build configuration list for PBXNativeTarget "LYDrawScanCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE569461F2B3EE800DBE28F /* Debug */,
+				CDE569471F2B3EE800DBE28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDE569481F2B3EE800DBE28F /* Build configuration list for PBXNativeTarget "LYDrawScanCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE569491F2B3EE800DBE28F /* Debug */,
+				CDE5694A1F2B3EE800DBE28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE5690D1F2B3EE700DBE28F /* Project object */;
+}

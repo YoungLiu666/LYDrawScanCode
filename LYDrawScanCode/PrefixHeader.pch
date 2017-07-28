@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  库存管理
+//
+//  Created by liuyang on 2017/7/7.
+//  Copyright © 2017年 同牛科技. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "Masonry.h"
+/** rgb颜色转换（16进制->10进制）*/
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define UIColoralpFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:0.125]
+
+#define DeviceWH kScreen_Width/375
+
+#define kScreen_Width  [UIScreen mainScreen].bounds.size.width
+#define kScreen_Height [UIScreen mainScreen].bounds.size.height
+#endif /* PrefixHeader_pch */
